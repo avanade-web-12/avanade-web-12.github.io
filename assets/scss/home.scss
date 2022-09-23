@@ -1,0 +1,19 @@
+body{
+    background: url("../images/c6bank/hero-bg-tablet.webp")no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: calc(100vh - 100px - 100px);
+    display: flex;
+    & > header{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        button{
+            width:200px;
+            height: 40px;
+            background: #ffe45c ;
+            font-size:0.8em;
+            border-radius: 20px
+        }
+    }
+}
