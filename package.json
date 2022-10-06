@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "sass --watch ./assets/scss:./assets/css --style compressed --no-source-map",
     "git": "git add --all && git commit -m 'Deploy' && git push origin master && echo 'deploy realizado'"
-
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.2.2"
+  }
 }

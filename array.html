@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <style>
+        body{
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background: #232f3e;
+            display: flex;
+            justify-content: center;
+        }
+        nav{
+            margin: 5px;
+            display: flex;
+            align-items: center;
+        }
+        select, option{
+            width: 200px;
+            line-height: 50px;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: solid 0.5px #000;
+            color: #555;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        h1,h2{
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            font-weight: 400;
+            margin-bottom: 2%;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        li{
+            list-style: none;
+            font-family: 'Open Sans';
+            margin-right: 35px;
+            font-size: 15px;
+        }
+        .sel-car{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="items-menu">
+            <ul></ul>
+        </nav>
+    </header>
+    <div class="sel-car">
+        <h1>Veja o console do navegador</h1>
+        <h2>execute ctrl + shift + i</h2>
+
+        <select id="carros">
+            <option selected> ---Selecione---</option>
+        </select>
+    </div>
+
+    <script text="text/javascript" src="assets/js/array.js"></script>
+</body>
+</html>
